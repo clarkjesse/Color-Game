@@ -1,4 +1,5 @@
-﻿body {
+﻿
+body {
     background-color: #232323;
     margin: 0;
     font-family: "Montserrat", "Avenir";
@@ -34,6 +35,7 @@ h1 {
     height: 30px;
     text-align: center;
     color: black;
+    width: 100%;
 }
 .selected {
     color: white;
@@ -65,4 +67,25 @@ button {
 button:hover {
     color: white;
     background-color: steelblue;
+}
+.footer{
+   border-top: 1px solid lightgrey;
+   margin-top: 20px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+/*Footer*/
+footer {
+    text-align: center;
+    font-size: 26px;
+}
+.footer-links a {
+    color: rgb(48, 52, 57);
+}
+.footer-links a:hover {
+    color: rgb(151, 153, 155);
+}
+.page-container{
+    display: block;
 }
